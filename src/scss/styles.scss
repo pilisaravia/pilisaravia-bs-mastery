@@ -23,4 +23,24 @@
 // Import partials:
 
 // Custom styles:
-
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "Ubuntu", serif;
+}
+footer {
+  text-align: center;
+  background-color: pink;
+}
+section {
+  padding-top: 20px;
+}

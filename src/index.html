@@ -5,13 +5,90 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Photo.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid md-4">
+    <header class="jumbotron p-5 ext-center d-flex justify-content-center align-items-center" style="min-height: 300px;">
+      <div class="text-center">
+      <h1 class="display-4 text-align: center;" style="color: white;">SHIP'S LOG</h1>
+      <p class="lead" style="color: white;">A diary by Cpt. Pili "Red Hair" Saraviona</p>
+    </header>
+  </div>
+  </div>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
-
+  <div>
+    <h3 class="padding-left: 30px";> Thar be monsters in the sea</h3>
+  </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card bg-white">
+          <div class="card-body">
+            <figure class="figure">
+              <img src="img/kraken01.jpg" class="figure-img img-fluid" alt="I 8 a ship>
+              <figcaption class="figure-caption"></figcaption>
+            </figure>
+            <h5 class="card-title">I 8 a ship</h5>
+            <p class="card-text">It was a foul sight, an obscene growth from the dark places of the world, where incessant hunger is the driving force.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-white">
+          <div class="card-body">
+            <figure class="figure">
+              <img src="img/kraken02.jpg" class="figure-img img-fluid" alt="ship's worst enemy>
+              <figcaption class="figure-caption"></figcaption>
+            </figure>
+            <h5 class="card-title">ship's worst enemy</h5>
+            <p class="card-text">Be not afraid of whirlpools, of strong winds, and murky waves. Fear the creature that dwells in the darkest depths, the ice-shackled Kraken, that threatens to surface and your soul to keep.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-white">
+          <div class="card-body">
+            <figure class="figure">
+              <img src="img/kraken03.jpg" class="figure-img img-fluid" alt="krazy kriller>
+              <figcaption class="figure-caption"></figcaption>
+            </figure>
+            <h5 class="card-title">krazy kriller</h5>
+            <p class="card-text">Look: the kraken of your idiocy. Yes, there it is, moving darkly beneath the water.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+<footer class="my-3">
+  Pili Saravia
+</footer>
 </html>

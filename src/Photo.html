@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Bootstrap 5 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid md-4">
+    <header class="jumbotron p-5 ext-center d-flex justify-content-center align-items-center" style="min-height: 300px;">
+      <div class="text-center">
+      <h1 class="display-4 text-align: center;" style="color: white;">SHIP'S LOG</h1>
+      <p class="lead" style="color: white;">A diary by Cpt. Pili "Red Hair" Saraviona</p>
+    </header>
+  </div>
+  </div>
+  <!-- Content starts here -->
+  <section>
+    <div id="carouselExampleControls" class="carousel slide col-md-8 offset-md-2" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/kraken01.jpg" class="d-block w-100" alt="...">
+          <figcaption class="text-center"> scary octopus</figcaption>
+        </div>
+        <div class="carousel-item">
+          <img src="img/kraken02.jpg" class="d-block w-100" alt="...">
+          <figcaption class="text-center">grip dat ship</figcaption>
+        </div>
+        <div class="carousel-item">
+          <img src="img/kraken03.jpg" class="d-block w-100" alt="...">
+          <figcaption class="text-center"> man v octopus</figcaption>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+  <!-- Closing scripts here -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="my-3">
+  Pili Saravia
+</footer>
+</html>
